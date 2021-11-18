@@ -14,7 +14,6 @@ body{
     position: relative;
     width: 200px;
     height: 200px;
-    background: #0f0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +23,8 @@ body{
     left: 0;
     list-style: none;
     transform-origin: 100px;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
 }
 .menu.active li{
     transform: rotate(calc(360deg / 8 * var(--i)));
