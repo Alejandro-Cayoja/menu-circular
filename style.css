@@ -38,6 +38,7 @@ body{
     height: 40px;
     background: #fff;
     border-radius: 50%;
+    transform: rotate(calc(360deg / -8 * var(--i)));
 }
 .toggle{
     position: absolute;
